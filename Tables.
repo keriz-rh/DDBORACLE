@@ -138,3 +138,12 @@ CREATE TABLE Descuentos_Productos (
     CONSTRAINT FK_Descuento_Producto FOREIGN KEY (ID_Descuento) REFERENCES Descuentos(ID_Descuento)
 );
 ```
+
+```sql
+-- Crear tabla TablaEjemplo
+CREATE TABLE TablaEjemplo (
+    ID INT PRIMARY KEY,
+    Nombre VARCHAR(50)
+);
+```
+
